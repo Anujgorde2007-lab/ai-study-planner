@@ -17,7 +17,7 @@ plan = {}
 total_difficulty = sum(d for _, d in subjects)
 
 for name, difficulty in subjects:
-    allocated_time = (difficulty / total_difficulty) * total_time
+    allocated_time = predict_time(difficulty)
     plan[name] = round(allocated_time, 2)
 
 print("\n📅 Study Plan:")
