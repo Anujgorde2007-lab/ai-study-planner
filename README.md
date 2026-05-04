@@ -17,6 +17,12 @@ Subjects are weighted based on difficulty, and total study time is distributed p
 ## 🌍 Why This Matters
 Efficient planning improves learning outcomes and reduces stress.
 
+## 🧠 Machine Learning Integration
+
+This project incorporates a Linear Regression model to predict study time allocation based on subject difficulty.
+
+This demonstrates a transition from rule-based planning to data-driven decision-making, reflecting foundational machine learning concepts.
+
 ## 🚀 Future Improvements
 - Add machine learning for adaptive planning
 - Track performance over time
