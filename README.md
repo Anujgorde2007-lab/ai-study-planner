@@ -165,6 +165,20 @@ python gui.py
 
 ---
 
+# 📸 Screenshots
+
+## Main GUI
+
+![Main GUI](./AI%20Study%20Planner%205_8_2026%2012_38_10%20PM.png)
+
+---
+
+## Study Progress Feature
+
+![Progress Tracker](./AI%20Study%20Planner%205_8_2026%2012_38_24%20PM.png)
+
+---
+
 # 🌍 Why This Project Matters
 
 This project helps students:
