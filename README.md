@@ -1,6 +1,6 @@
 # 📚 AI Study Planner
 
-An intelligent Python-based study planner that helps students organize study time using difficulty-based subject analysis, productivity prediction, progress tracking, and visual analytics.
+An intelligent Python-based study planner that helps students organize study time using AI-inspired difficulty analysis, productivity prediction, progress tracking, streak monitoring, and visual analytics.
 
 ---
 
@@ -10,18 +10,25 @@ An intelligent Python-based study planner that helps students organize study tim
 ✅ AI productivity score prediction  
 ✅ Progress tracker system  
 ✅ Daily streak counter  
-✅ Save study history to file  
+✅ Study history saving system  
 ✅ Pie chart visualization using Matplotlib  
-✅ Modern dark-themed GUI with Tkinter  
-✅ Easy-to-use desktop application  
+✅ Modern dark-themed GUI  
+✅ CSV dataset integration  
+✅ Beginner-friendly desktop application  
 
 ---
 
 # 🧠 AI Concept
 
-The application uses a simple AI-inspired logic system that analyzes subject difficulty and distributes available study hours intelligently.
+The application uses AI-inspired weighted distribution logic to intelligently allocate study time based on subject difficulty.
 
-It predicts productivity score based on study input and tracks user consistency through streak monitoring.
+Harder subjects receive more study time automatically, helping students create balanced and efficient study schedules.
+
+The system also tracks:
+- productivity
+- consistency
+- completed study tasks
+- streak performance
 
 ---
 
@@ -37,60 +44,61 @@ It predicts productivity score based on study input and tracks user consistency 
 
 # 📌 Overview
 
-Students often struggle to divide study hours properly across subjects.  
-This project solves that problem by automatically generating a balanced study schedule based on subject difficulty levels.
+Students often struggle to divide study hours effectively across multiple subjects.
 
-The application also improves motivation using:
-- productivity score
-- streak system
+This project solves that problem by automatically generating an optimized study schedule using subject difficulty levels and productivity-based logic.
+
+The application also motivates students using:
 - progress tracking
-- visual charts
+- streak counting
+- visual analytics
+- productivity scoring
 
 ---
 
 # ❗ Problem Statement
 
-Manual study planning can be:
-- time-consuming
+Manual study planning can often be:
 - unbalanced
 - inconsistent
 - difficult to track
+- time-consuming
 
-This project creates an automated AI-powered planner for better time management and productivity.
+This project creates an automated AI-inspired study planner for better productivity and time management.
 
 ---
 
 # ✨ Key Features
 
 ## 📊 Smart Time Distribution
-Allocates study hours based on subject difficulty.
+Distributes study hours according to subject difficulty.
 
 ## 📈 Productivity Prediction
-Predicts productivity score using simple AI logic.
+Predicts productivity score using AI-inspired logic.
 
 ## 🔥 Streak Counter
 Tracks continuous study completion streaks.
 
-## 💾 Study History
-Automatically saves completed study sessions.
+## 💾 Study History Saving
+Automatically stores study session history into a text file.
 
-## 📉 Matplotlib Pie Chart
-Displays study time distribution visually.
+## 📉 Matplotlib Visualization
+Displays study time allocation using pie charts.
 
 ## ✅ Progress Tracker
-Tracks completed study tasks.
+Tracks completed study tasks interactively.
 
 ---
 
 # ⚙️ How It Works
 
 1. User enters available study hours
-2. AI planner reads subject difficulty
+2. AI planner reads subject difficulty levels
 3. Study hours are distributed intelligently
 4. Productivity score is calculated
-5. Pie chart is generated
-6. Progress and streak are updated
-7. Study history is saved
+5. Pie chart visualization is generated
+6. Progress and streak systems are updated
+7. Study history is saved automatically
 
 ---
 
@@ -107,9 +115,11 @@ AI Productivity Prediction
    ↓
 Progress Tracking
    ↓
-Chart Visualization
+Streak Monitoring
    ↓
-History Saving
+Study History Saving
+   ↓
+Chart Visualization
 ```
 
 ---
@@ -122,8 +132,9 @@ ai-study-planner/
 ├── gui.py
 ├── dataset.csv
 ├── study_history.txt
-├── screenshots/
 ├── README.md
+├── AI Study Planner 5_8_2026 12_38_10 PM.png
+└── AI Study Planner 5_8_2026 12_38_24 PM.png
 ```
 
 ---
@@ -152,6 +163,21 @@ pip install pandas matplotlib
 
 ```bash
 python gui.py
+```
+
+---
+
+# 📸 Screenshots
+
+## 🖥 Main GUI
+
+![Main GUI](./AI%20Study%20Planner%205_8_2026%2012_38_10%20PM.png)
+
+---
+
+## 📈 Progress Tracker Feature
+
+![Progress Tracker](./AI%20Study%20Planner%205_8_2026%2012_38_24%20PM.png)
 
 ---
 
@@ -161,21 +187,7 @@ python gui.py
 - Productivity score
 - Pie chart visualization
 - Streak updates
-- Progress completion system
-
----
-
-# 📸 Screenshots
-
-## Main GUI
-
-![Main GUI](./AI%20Study%20Planner%205_8_2026%2012_38_10%20PM.png)
-
----
-
-## Study Progress Feature
-
-![Progress Tracker](./AI%20Study%20Planner%205_8_2026%2012_38_24%20PM.png)
+- Progress tracking system
 
 ---
 
@@ -184,62 +196,63 @@ python gui.py
 This project helps students:
 - manage study time efficiently
 - improve consistency
-- visualize progress
+- visualize productivity
 - stay motivated
 
-It combines AI-inspired planning with an interactive GUI system.
+It combines AI-inspired planning with an interactive GUI-based desktop application.
 
 ---
 
 # 🔍 Technical Insights
 
 - Uses Pandas for dataset handling
-- Uses Tkinter for GUI design
+- Uses Tkinter for GUI development
 - Uses Matplotlib for data visualization
-- Uses file handling for history storage
-- Uses AI-based weighted logic for planning
+- Uses file handling for history saving
+- Uses weighted AI-inspired allocation logic
 
 ---
 
 # 🤖 Machine Learning Integration
 
-Currently, the project uses AI-inspired prediction logic.
+Currently, the project uses AI-inspired prediction and weighted allocation logic.
 
 Future versions may include:
-- real ML models
+- real machine learning models
+- adaptive planning systems
 - personalized recommendations
 - performance prediction
-- adaptive study planning
 
 ---
 
 # ⚠️ Limitations
 
-- Uses simple prediction logic
+- Uses simple AI-inspired logic
 - No cloud database
-- Local storage only
+- Local file storage only
+- No user authentication system yet
 
 ---
 
 # 🚀 Future Improvements
 
 - Login system
-- Real machine learning model
-- Database integration
-- Mobile app version
+- Real ML model integration
+- Database connectivity
+- Mobile application version
 - Weekly analytics dashboard
-- User profile system
+- Personalized AI recommendations
 
 ---
 
 # 📈 Impact
 
 This project demonstrates:
-- problem-solving skills
-- GUI development
-- AI-based logic implementation
+- Python GUI development
+- AI-inspired logic implementation
+- productivity system design
 - data visualization
-- Python application development
+- beginner AI application development
 
 ---
 
