@@ -152,17 +152,6 @@ pip install pandas matplotlib
 
 ```bash
 python gui.py
-```
-
----
-
-# 📸 Screenshots
-
-### 🤖 AI Study Planner
-![Planner](screenshots/planner.png)
-
-### 📊 Study Time Visualization
-![Chart](screenshots/chart.png)
 
 ---
 
